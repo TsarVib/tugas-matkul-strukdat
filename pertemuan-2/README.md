@@ -4,6 +4,8 @@ Nama: Firsto Al Kautsar Jagad Kurniaji
 NRP: 5025251020
 Kelas: Struktur Data D
 
+Link Source Code: [Source Code Pertemuan 2](https://github.com/BookShell527/tugas-matkul-strukdat/tree/main/pertemuan-2)
+
 ## Printing dan Meminta Input dari User
 Membuat variabel ```nama```, meminta nama panggilan dari user, dan mengeluarkannya di terminal.
 
