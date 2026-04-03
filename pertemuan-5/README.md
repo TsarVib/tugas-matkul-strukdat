@@ -98,6 +98,8 @@ int main() {
   return 0;
 }
 ```
+Output:
+![stackwitharray.cpp](img/stackarray.png)
 
 Kelemahan implementasi array adalah ukurannya tetap (statis). Jika elemen melebihi kapasitas `MAX`, stack tidak dapat menampung elemen baru meskipun memori sistem masih tersedia.
 
@@ -201,6 +203,9 @@ int main() {
   return 0;
 }
 ```
+
+Output:
+![stackwitharray.cpp](img/stacklinkedlist.png)
 
 Keunggulan implementasi linked list adalah ukurannya dinamis sehingga tidak memiliki batas kapasitas tetap. Stack Overflow tidak akan terjadi selama memori sistem masih tersedia. Namun setiap node memerlukan alokasi memori tambahan untuk menyimpan pointer `next`.
 
