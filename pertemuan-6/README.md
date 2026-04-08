@@ -157,6 +157,20 @@ int main() {
 ### Output
 ### Visualisasi
 
+Contoh: `53+82-*`
+
+| Baca | Aksi | Stack |
+|------|------|-------|
+| `5` | Angka → push | `[5]` |
+| `3` | Angka → push | `[5, 3]` |
+| `+` | Pop 3 (val2), pop 5 (val1) → 5+3=8 → push | `[8]` |
+| `8` | Angka → push | `[8, 8]` |
+| `2` | Angka → push | `[8, 8, 2]` |
+| `-` | Pop 2 (val2), pop 8 (val1) → 8-2=6 → push | `[8, 6]` |
+| `*` | Pop 6 (val2), pop 8 (val1) → 8\*6=48 → push | `[48]` |
+
+Hasil akhir: `48`
+
 ## Evaluasi Notasi Postfix Multi Digit
 
 ### Kode
@@ -210,3 +224,25 @@ int main() {
 
 ### Output
 ### Visualisasi
+
+Contoh: `15 7 1 1 + - / 3 * 2 1 1 + + -`
+
+| Token | Aksi | Stack |
+|-------|------|-------|
+| `15` | Angka → push | `[15]` |
+| `7` | Angka → push | `[15, 7]` |
+| `1` | Angka → push | `[15, 7, 1]` |
+| `1` | Angka → push | `[15, 7, 1, 1]` |
+| `+` | 1+1=2 → push | `[15, 7, 2]` |
+| `-` | 7-2=5 → push | `[15, 5]` |
+| `/` | 15/5=3 → push | `[3]` |
+| `3` | Angka → push | `[3, 3]` |
+| `*` | 3\*3=9 → push | `[9]` |
+| `2` | Angka → push | `[9, 2]` |
+| `1` | Angka → push | `[9, 2, 1]` |
+| `1` | Angka → push | `[9, 2, 1, 1]` |
+| `+` | 1+1=2 → push | `[9, 2, 2]` |
+| `+` | 2+2=4 → push | `[9, 4]` |
+| `-` | 9-4=5 → push | `[5]` |
+
+Hasil akhir: 5
