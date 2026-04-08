@@ -87,8 +87,11 @@ int main() {
 ```
 
 ### Output
+
+![konversipostfix.cpp](img/konversipostfix.png)
+
 ### Visualisasi
-Contoh ekspresi: `A+B*C-D`
+Contoh Input: `A+B*C-D`
 
 | Baca | Aksi | Stack | Hasil |
 |------|------|-------|-------|
@@ -153,11 +156,13 @@ int main() {
 }
 ```
 
-
 ### Output
+
+![evaluasipostfix.cpp](img/evaluasipostfix.png)
+
 ### Visualisasi
 
-Contoh: `53+82-*`
+Contoh Input: `53+82-*`
 
 | Baca | Aksi | Stack |
 |------|------|-------|
@@ -223,9 +228,12 @@ int main() {
 ```
 
 ### Output
+
+![multidigit.png](img/multidigit.png)
+
 ### Visualisasi
 
-Contoh: `15 7 1 1 + - / 3 * 2 1 1 + + -`
+Contoh Input: `15 7 1 1 + - / 3 * 2 1 1 + + -`
 
 | Token | Aksi | Stack |
 |-------|------|-------|
