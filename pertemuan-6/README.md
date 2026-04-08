@@ -90,20 +90,18 @@ int main() {
 ### Visualisasi
 Contoh ekspresi: `A+B*C-D`
 
-┌─────────┬──────────────────────────────────────┬──────────┬────────────┐
-│  Baca   │  Aksi                                │  Stack   │  Hasil     │
-├─────────┼──────────────────────────────────────┼──────────┼────────────┤
-│   A     │  Operand → langsung ke hasil         │  []      │  A         │
-│   +     │  Operator, stack kosong → push       │  [+]     │  A         │
-│   B     │  Operand → langsung ke hasil         │  [+]     │  AB        │
-│   *     │  Prioritas * > +, langsung push      │  [+, *]  │  AB        │
-│   C     │  Operand → langsung ke hasil         │  [+, *]  │  ABC       │
-│   -     │  Prioritas - ≤ *, pop *              │  [+]     │  ABC*      │
-│         │  Prioritas - ≤ +, pop +              │  []      │  ABC*+     │
-│         │  Push -                              │  [-]     │  ABC*+     │
-│   D     │  Operand → langsung ke hasil         │  [-]     │  ABC*+D    │
-│  (end)  │  Keluarkan sisa stack                │  []      │  ABC*+D-   │
-└─────────┴──────────────────────────────────────┴──────────┴────────────┘
+| Baca | Aksi | Stack | Hasil |
+|------|------|-------|-------|
+| `A` | Operand → langsung ke hasil | `[]` | `A` |
+| `+` | Stack kosong → push | `[+]` | `A` |
+| `B` | Operand → langsung ke hasil | `[+]` | `AB` |
+| `*` | Prioritas `*` > `+` → push | `[+, *]` | `AB` |
+| `C` | Operand → langsung ke hasil | `[+, *]` | `ABC` |
+| `-` | Prioritas `-` ≤ `*` → pop `*` | `[+]` | `ABC*` |
+| `-` | Prioritas `-` ≤ `+` → pop `+` | `[]` | `ABC*+` |
+| `-` | Push `-` | `[-]` | `ABC*+` |
+| `D` | Operand → langsung ke hasil | `[-]` | `ABC*+D` |
+| (end) | Keluarkan sisa stack | `[]` | `ABC*+D-` |
 
 Hasil akhir: ABC*+D-
 
