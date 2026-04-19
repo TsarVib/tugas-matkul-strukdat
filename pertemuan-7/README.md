@@ -181,7 +181,7 @@ int main() {
 }
 ```
 Output:
-![output arrayqueue.cpp](pertemuan-7/arrayqueue.png)
+![output arrayqueue.cpp](pertemuan-7/img/arrayqueue.png)
 
 > **Kelebihan & Kekurangan**
 > Implementasi array mudah dipahami dan cepat diakses. Tapi ukurannya tidak fleksibel — kalau data melebihi `MAX`, tidak bisa ditambah lagi. Solusinya? Pakai linked list.
@@ -280,7 +280,7 @@ int main() {
 ```
 
 Output:
-![output arrayqueue.cpp](pertemuan-7/linkedlistqueue.png)
+![output arrayqueue.cpp](pertemuan-7/img/linkedlistqueue.png)
 
 ---
 
