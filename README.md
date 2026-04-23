@@ -5,3 +5,4 @@
 * Pertemuan 5 (Stack): [Source Code Pertemuan 5](pertemuan-5/README.md)
 * Pertemuan 6 (Kasus Penggunaan Stack): [Source Code Pertemuan 6](pertemuan-6/README.md)
 * Pertemuan 7 (Queue): [Source Code Pertemuan 7](pertemuan-7/README.md)
+* Pertemuan 8 (Linked List): [Source Code Pertemuan 8](pertemuan-8/README.md)
