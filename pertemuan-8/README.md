@@ -1,5 +1,11 @@
 # Dokumentasi Tugas 8 - Linked List
 
+Nama: Firsto Al Kautsar Jagad Kurniaji
+NRP: 5025251020
+Kelas: Struktur Data D
+
+Link Source Code: [Source Code Pertemuan 8](https://github.com/TsarVib/tugas-matkul-strukdat/tree/main/pertemuan-8)
+
 ## Struktur Node dan Implementasi Dasar**
 ```cpp
 using namespace std;
@@ -171,4 +177,5 @@ int main() {
 ```
 
 Output: 
+
 ![output](img/output.png)
