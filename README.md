@@ -6,3 +6,5 @@
 * Pertemuan 6 (Kasus Penggunaan Stack): [Source Code Pertemuan 6](pertemuan-6/README.md)
 * Pertemuan 7 (Queue): [Source Code Pertemuan 7](pertemuan-7/README.md)
 * Pertemuan 8 (Linked List): [Source Code Pertemuan 8](pertemuan-8/README.md)
+* Evaluasi Tengah Semester: [ETS](ets/README.md)
+* Pertemuan 10 (Tree): [Source Code Pertemuan 10](pertemuan-10/README.md)
